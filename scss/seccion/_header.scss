@@ -1,0 +1,37 @@
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.header img {
+    width: 100px;
+    margin-left: 5px;
+}
+
+.header ul {
+    display: flex !important;
+    list-style-type: none !important;
+    width: 400px !important;
+    justify-content: space-around !important;
+    padding-right: 0px !important;
+    /* background-color: hsla(240, 43%, 99%, 0.487); */
+}
+
+
+.header a {
+    font-size: large;
+    font-family: $imprenta;
+    color: $azul;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icono-carrito {
+    width: 30px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,37 @@
+
+
+.pie {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: hsla(240, 27%, 47%, 0.487); */
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: flex-end;
+
+}
+
+.pie ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.pie img {
+    width: 20px;
+
+}
+
+.pie a {
+
+    margin: 20px;
+    font-size: large;
+    font-family: $imprenta;
+    color: $azul;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}

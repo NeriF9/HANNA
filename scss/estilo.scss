@@ -1,0 +1,87 @@
+@import "./variables/color";
+@import "./variables/fuente";
+
+
+@import "./seccion/header";
+@import "./seccion/main";
+@import "./seccion/footer";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: $cursiva;
+}
+
+
+
+.img {
+    width: 100%;
+}
+
+
+
+.imagen {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.body-s {
+    background-color: $blanco;
+}
+
+.body {
+    font-family: $imprenta ;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-size: 12px;
+    font-family: baskerville-urw;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+    font-size: 17px;
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+
+
+
+a:hover {
+    font-family: $cursiva;
+    color: $gris;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h1:hover {
+    // background-color: rgb(131, 116, 131);
+    // color: rgb(234, 162, 247);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 500px) {
+    .section {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "pokemon"
+            "digimon"
+            "bosque";
+
+    }
+
+}
