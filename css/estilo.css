@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:wght@500&family=Tektur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap");
 .header {
   display: flex;
   justify-content: flex-end;
@@ -21,7 +21,7 @@
 
 .header a {
   font-size: large;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cardo", serif;
   color: #7d5bbb;
   text-decoration: none;
   text-transform: uppercase; }
@@ -128,7 +128,7 @@
   font-size: 10px; }
 
 .seccion-1 {
-  padding: 5px;
+  padding: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -138,10 +138,11 @@
 
 .seccion-1 img {
   width: 250px;
-  margin-bottom: 5px; }
+  margin-bottom: 30px;
+  margin-right: 30px; }
 
 .flex {
-  font-family: "Righteous", cursive;
+  font-family: "Dancing Script", cursive;
   color: #312f2f;
   display: flex;
   justify-content: space-around;
@@ -151,10 +152,16 @@
 
 .flex-1 {
   font-size: larger;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center; }
+
+span {
+  margin-top: 30px; }
 
 .flex div {
-  padding: 30px; }
+  margin: 10px 100px 10px 100px; }
 
 .flex img {
   width: 400px;
@@ -209,7 +216,7 @@
 .pie a {
   margin: 20px;
   font-size: large;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cardo", serif;
   color: #7d5bbb;
   text-decoration: none;
   text-transform: uppercase; }
@@ -221,7 +228,7 @@
 body {
   margin: 0 auto;
   max-width: 1200px;
-  font-family: "Righteous", cursive; }
+  font-family: "Dancing Script", cursive; }
 
 .img {
   width: 100%; }
@@ -236,7 +243,7 @@ body {
   background-color: #fff; }
 
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cardo", serif;
   font-weight: normal;
   line-height: 1.6em;
   font-size: 12px;
@@ -249,7 +256,7 @@ body {
   text-decoration: none; }
 
 a:hover {
-  font-family: "Righteous", cursive;
+  font-family: "Dancing Script", cursive;
   color: #b4a2e4;
   border-radius: 5px;
   padding: 5px;
