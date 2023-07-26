@@ -64,7 +64,7 @@
 
 .contenedor-productos {
   display: grid;
-  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-columns: repeat(3, 0.5fr);
   gap: 20px; }
 
 .carrusel {
@@ -156,9 +156,6 @@
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: center; }
-
-span {
-  margin-top: 30px; }
 
 .flex div {
   margin: 10px 100px 10px 100px; }
@@ -270,4 +267,8 @@ h1:hover {
 @media (max-width: 500px) {
   .section {
     grid-template-columns: 1fr;
-    grid-template-areas: "pokemon" "digimon" "bosque"; } }
+    grid-template-areas: "pokemon" "digimon" "bosque"; }
+  .contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 20px; } }

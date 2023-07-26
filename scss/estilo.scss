@@ -65,8 +65,7 @@ a:hover {
 }
 
 h1:hover {
-    // background-color: rgb(131, 116, 131);
-    // color: rgb(234, 162, 247);
+
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
@@ -82,6 +81,13 @@ h1:hover {
             "digimon"
             "bosque";
 
+    }
+
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: repeat(2, .5fr);
+        gap: 20px;
+    
     }
 
 }

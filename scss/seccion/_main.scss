@@ -46,7 +46,7 @@
 
 .contenedor-productos {
     display: grid;
-    grid-template-columns: repeat(4, .5fr);
+    grid-template-columns: repeat(3, .5fr);
     gap: 20px;
 
 }
@@ -169,9 +169,9 @@
     justify-content: center;
 }
 
-span{
-    margin-top: 30px;
-}
+// span{
+//     margin-top: 30px;
+// }
 
 .flex div {
     margin: 10px 100px 10px 100px;
