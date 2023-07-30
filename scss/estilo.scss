@@ -90,4 +90,11 @@ h1:hover {
     
     }
 
+    .seccion-1{
+        display: grid;
+        grid-template-columns: repeat(2, .5fr);
+        gap: 20px;
+    }
+    
+
 }
